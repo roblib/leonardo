@@ -34,8 +34,10 @@
 
 }
 .layout-container > header .region-header .site-logo {
-    float: right;
-    margin-right: 1em;
+    position: absolute;
+    right: 1em;
+    top:0.5em;
+    max-width: 50px;
 }
 
 /* Font stying for site name and slogan*/
@@ -47,7 +49,30 @@
   color: #000;
 }
 
+/* Font stying for site name and slogan*/
+.layout-container > header .region-header .site-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+}
+.layout-container > header .region-header a {
+  color: #000;
+}
 
+/* Shrinking header for responsivity */
+@media (min-width: 44em) {
+  .layout-container > header .region-header .site-name {
+  font-size: 1.5em;
+ }
+ .layout-container > header .region-header .site-logo {
+  max-width: 100px;
+}
+}
+
+@media (min-width: 64em) {
+.layout-container > header .region-header .site-name {
+  font-size: 2em;
+ }
+}
 
 /* Site Slogan appears on its own, full-width, line at the bottom of the header */
 .layout-container > header .region-header {

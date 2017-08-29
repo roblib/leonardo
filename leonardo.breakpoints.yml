@@ -1,0 +1,24 @@
+leonardo.x-small:
+  label: x-small
+  mediaQuery: '22.5em'
+  weight: 0
+  multipliers:
+    - 1x
+leonardo.small:
+  label: small
+  mediaQuery: '30em'
+  weight: 1
+  multipliers:
+    - 1x
+leonardo.medium:
+  label: medium
+  mediaQuery: '44em'
+  weight: 2
+  multipliers:
+    - 1x
+leonardo.large:
+  label: large
+  mediaQuery: '64em'
+  weight: 3
+  multipliers:
+    - 1x
